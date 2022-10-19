@@ -1,0 +1,19 @@
+{
+  "name": "microservice_ahmtcntrn",
+  "version": "1.0.0",
+  "description": "a microservice that adds logos your images",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "microservices-that-adds-logos-to-your-images"
+  },
+  "author": "Ahmet Can Turan",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^4.3.1",
+    "sharp": "^0.31.1"
+  }
+}
