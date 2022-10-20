@@ -6,7 +6,7 @@ const { url } = require("./connect.json")
 const publisher = redis.createClient(url);
 const client = redis.createClient(url);
 const subscriber = client.duplicate();
-
+console.log("Microservice is Activated..")
 const paramsValidator = (...x) => {
     let i = 0
     for (const iterator of x) {
